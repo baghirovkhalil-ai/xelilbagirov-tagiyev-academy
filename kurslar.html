@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Online Kurslar — İbtidai, İmtahan, Dil | Tagiyev Academy</title>
+<meta name="description" content="İbtidai sinif hazırlığı, buraxılış və qəbul imtahanları, ingilis və rus dili, karyera bacarıqları — Tagiyev Academy online kursları.">
+<link rel="canonical" href="https://tagiyevacademy.az/kurslar.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0B1430">
+<meta property="og:type" content="website"><meta property="og:locale" content="az_AZ"><meta property="og:site_name" content="Tagiyev Academy">
+<meta property="og:title" content="Online Kurslar — İbtidai, İmtahan, Dil | Tagiyev Academy"><meta property="og:description" content="İbtidai sinif hazırlığı, buraxılış və qəbul imtahanları, ingilis və rus dili, karyera bacarıqları — Tagiyev Academy online kursları."><meta property="og:url" content="https://tagiyevacademy.az/kurslar.html"><meta property="og:image" content="https://tagiyevacademy.az/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 width='38' height='38' viewBox='0 0 40 40' aria-hidden='true'><path d='M33 9A16 16 0 1 0 34 30' fill='none' stroke='%230B1430' stroke-width='3.4' stroke-linecap='round'/><path d='M11 17l9 7 11-10-8 15-8 6 3-9z' fill='%237BC424'/><path d='M15 27l4-3-6 11z' fill='%232BA3EC'/><path d='M20 6l6 3-6 3-6-3z' fill='%230B1430'/><path d='M33 8l1 2 2 .4-1.6 1.4.4 2.2-1.8-1-1.8 1 .4-2.2L30 10.4l2-.4z' fill='%23FFC21A'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--night:#0B1430;--night2:#13224A;--ink:#16233F;--ink2:#3A4868;--leaf:#7BC424;--leaf-d:#4E8410;--sky:#2BA3EC;--sun:#FFC21A;--paper:#F5F8FC;--line:#DDE3EC;--mut:#5B6780;--disp:'Unbounded','Arial Black',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',system-ui,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}img,svg{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:8px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--disp);line-height:1.08;letter-spacing:-.02em;font-weight:700}
+h2{font-size:clamp(1.8rem,4.4vw,3.2rem);margin-bottom:.5em}
+h3{font-size:1.12rem;margin-bottom:.4em;letter-spacing:-.01em}
+p{max-width:62ch}
+.lead{font-size:1.15rem;color:var(--ink2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* page curtain */
+.curtain{position:fixed;inset:0;z-index:999;pointer-events:none;display:grid}
+.curtain i{grid-area:1/1;transform-origin:top}
+.curtain i:nth-child(1){background:var(--sky)}
+.curtain i:nth-child(2){background:var(--leaf)}
+.curtain i:nth-child(3){background:var(--night);display:grid;place-items:center}
+.curtain i:nth-child(3) svg{width:70px;height:70px}
+.curtain.out i{animation:cUp .75s cubic-bezier(.75,0,.2,1) forwards}
+.curtain.out i:nth-child(1){animation-delay:.18s}.curtain.out i:nth-child(2){animation-delay:.09s}
+@keyframes cUp{to{transform:translateY(-101%)}}
+.curtain.in i{transform:translateY(101%);animation:cIn .55s cubic-bezier(.75,0,.2,1) forwards}
+.curtain.in i:nth-child(2){animation-delay:.07s}.curtain.in i:nth-child(3){animation-delay:.14s}
+@keyframes cIn{to{transform:none}}
+
+/* progress + cursor */
+.prog{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--sky),var(--leaf),var(--sun));z-index:80}
+.cur{position:fixed;top:0;left:0;width:34px;height:34px;border:2px solid var(--sky);border-radius:50%;pointer-events:none;z-index:90;transform:translate(-50%,-50%);transition:width .2s,height .2s,background .2s,border-color .2s;mix-blend-mode:difference;display:none}
+.cur.big{width:70px;height:70px;background:rgba(123,196,36,.25);border-color:var(--leaf)}
+@media(pointer:fine){.cur{display:block}}
+
+/* header */
+.top{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(1140px,calc(100% - 24px));z-index:70;border-radius:999px;transition:background .3s,box-shadow .3s}
+.top.solid{background:rgba(11,20,48,.86);backdrop-filter:blur(14px);box-shadow:0 10px 40px rgba(11,20,48,.25)}
+.top .bar{display:flex;align-items:center;justify-content:space-between;height:62px;padding:0 10px 0 18px;gap:14px;color:#fff}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+.brand b{font-family:var(--disp);font-size:1rem;letter-spacing:.03em;display:block;line-height:1}
+.brand small{display:block;font-size:.62rem;letter-spacing:.42em;opacity:.7;margin-top:4px}
+.brand svg{transition:transform .6s}
+.brand:hover svg{transform:rotate(360deg)}
+nav ul{display:flex;gap:4px;list-style:none}
+nav a{display:block;text-decoration:none;font-weight:700;font-size:.92rem;padding:9px 15px;border-radius:999px;color:rgba(255,255,255,.82);transition:background .2s,color .2s}
+nav a:hover{color:#fff;background:rgba(255,255,255,.1)}
+nav a[aria-current=page]{background:#fff;color:var(--night)}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;font-weight:800;text-decoration:none;border-radius:999px;padding:15px 26px;border:0;cursor:pointer;font-family:inherit;font-size:1rem;overflow:hidden;isolation:isolate;transition:transform .2s,color .3s}
+.btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;transform:scale(0);transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.btn:hover::before{transform:scale(1)}
+.btn-wa{background:var(--leaf);color:var(--night)}.btn-wa::before{background:var(--sun)}
+.btn-ghost{background:transparent;color:inherit;box-shadow:inset 0 0 0 2px currentColor}.btn-ghost::before{background:var(--sky)}
+.btn-ghost:hover{color:#fff}
+.btn-sm{padding:11px 20px;font-size:.92rem}
+.btn .ar{transition:transform .3s}.btn:hover .ar{transform:translateX(4px) rotate(-45deg)}
+.burger{display:none;background:rgba(255,255,255,.12);border:0;width:46px;height:46px;border-radius:50%;cursor:pointer}
+.burger span{display:block;height:2px;width:18px;background:#fff;margin:5px auto;transition:.3s}
+.burger[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media(max-width:900px){
+ .top{background:rgba(11,20,48,.86);backdrop-filter:blur(14px)}
+ .burger{display:block}
+ .top .btn-sm{display:none}
+ nav{position:fixed;inset:0;background:var(--night);clip-path:circle(0 at calc(100% - 40px) 40px);transition:clip-path .6s cubic-bezier(.7,0,.2,1);z-index:-1;display:grid;place-items:center;border-radius:0}
+ nav.open{clip-path:circle(150% at calc(100% - 40px) 40px)}
+ nav ul{flex-direction:column;gap:6px;text-align:center}
+ nav a{font-family:var(--disp);font-size:1.7rem;padding:12px 24px;opacity:0;transform:translateY(20px);transition:opacity .4s,transform .4s,background .2s}
+ nav.open a{opacity:1;transform:none}
+ nav.open li:nth-child(2) a{transition-delay:.06s}nav.open li:nth-child(3) a{transition-delay:.12s}nav.open li:nth-child(4) a{transition-delay:.18s}nav.open li:nth-child(5) a{transition-delay:.24s}
+ .top{border-radius:999px}
+}
+
+/* hero */
+.hero{position:relative;min-height:100svh;background:radial-gradient(1200px 700px at 75% 30%,#1B3270 0%,var(--night) 60%);color:#fff;overflow:hidden;display:flex;align-items:center;padding:120px 0 80px}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;width:100%}
+.hero h1{font-size:clamp(2.3rem,6.4vw,5.2rem)}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em}
+.hero h1 .w>span{display:inline-block;transform:translateY(110%);animation:wUp .9s cubic-bezier(.2,.9,.2,1) forwards}
+@keyframes wUp{to{transform:none}}
+.rot{display:inline-block;color:var(--leaf);position:relative;white-space:nowrap}
+.rot .ch{display:inline-block;animation:chIn .5s cubic-bezier(.2,.9,.3,1.4) both}
+.rot .ch.out{animation:chOut .3s ease-in forwards}
+@keyframes chIn{from{opacity:0;transform:translateY(.6em) rotate(12deg) scale(.6)}}
+@keyframes chOut{to{opacity:0;transform:translateY(-.6em) rotate(-12deg) scale(.6)}}
+.hero .lead{color:rgba(255,255,255,.78);margin:24px 0 34px;opacity:0;animation:fade 1s .9s forwards}
+.hero .cta-row{opacity:0;animation:fade 1s 1.1s forwards}
+@keyframes fade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.scroll-hint{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);width:26px;height:42px;border:2px solid rgba(255,255,255,.4);border-radius:14px}
+.scroll-hint::after{content:'';position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--leaf);animation:sh 1.6s infinite}
+@keyframes sh{70%{transform:translateY(14px);opacity:0}100%{opacity:0}}
+
+/* orbit system */
+.orbit{position:relative;width:100%;max-width:500px;aspect-ratio:1;justify-self:center;perspective:900px}
+.orbit .sys{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .25s ease-out}
+.ring{position:absolute;border-radius:50%;border:1.5px dashed rgba(255,255,255,.22);top:50%;left:50%;transform:translate(-50%,-50%)}
+.ring .spin{position:absolute;inset:0;border-radius:50%;animation:spin linear infinite}
+.r1{width:42%;height:42%}.r1 .spin{animation-duration:14s}
+.r2{width:68%;height:68%}.r2 .spin{animation-duration:22s;animation-direction:reverse}
+.r3{width:94%;height:94%}.r3 .spin{animation-duration:32s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.planet{position:absolute;top:0;left:50%;transform:translate(-50%,-50%)}
+.planet .pl{display:flex;align-items:center;gap:8px;white-space:nowrap;font-weight:800;font-size:.9rem;padding:8px 14px 8px 8px;border-radius:999px;background:rgba(255,255,255,.95);color:var(--night);box-shadow:0 0 0 6px rgba(255,255,255,.08),0 10px 30px rgba(0,0,0,.35);animation:spin linear infinite reverse}
+.r1 .pl{animation-duration:14s}.r2 .pl{animation-duration:22s;animation-direction:normal}.r3 .pl{animation-duration:32s}
+.pl i{width:22px;height:22px;border-radius:50%;display:block}
+.r1 .pl i{background:var(--sky)}.r2 .pl i{background:var(--leaf)}.r3 .pl i{background:var(--sun)}
+.core{position:absolute;top:50%;left:50%;width:24%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#E8EEF8);display:grid;place-items:center;box-shadow:0 0 60px rgba(43,163,236,.55),0 0 120px rgba(123,196,36,.3)}
+.core::before,.core::after{content:'';position:absolute;inset:-14px;border-radius:50%;border:2px solid rgba(123,196,36,.5);animation:pulse 3s infinite}
+.core::after{animation-delay:1.5s;border-color:rgba(43,163,236,.5)}
+@keyframes pulse{from{transform:scale(.85);opacity:1}to{transform:scale(1.7);opacity:0}}
+.core svg{width:62%;height:62%}
+.comet{position:absolute;width:120px;height:2px;background:linear-gradient(90deg,transparent,#fff);top:12%;left:-20%;transform:rotate(-24deg);animation:comet 7s 2s infinite;opacity:0;border-radius:2px}
+@keyframes comet{0%{left:-20%;top:20%;opacity:0}5%{opacity:1}22%{left:110%;top:-10%;opacity:0}100%{opacity:0}}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.orbit{max-width:360px;margin-top:20px}.planet .pl{font-size:.78rem;padding:6px 11px 6px 6px}.pl i{width:16px;height:16px}}
+
+/* marquee */
+.marq{background:var(--leaf);color:var(--night);overflow:hidden;padding:18px 0;transform:rotate(-2deg) scale(1.04);margin:-30px 0 0;position:relative;z-index:3;box-shadow:0 20px 50px rgba(11,20,48,.15)}
+.marq.b{background:var(--night);color:#fff;transform:rotate(2deg) scale(1.04);margin-top:-12px;z-index:2}
+.marq .tr{display:flex;width:max-content;animation:mq 28s linear infinite}
+.marq.b .tr{animation-direction:reverse;animation-duration:34s}
+.marq span{font-family:var(--disp);font-size:clamp(1.1rem,2.6vw,1.8rem);font-weight:700;padding:0 22px;white-space:nowrap;display:flex;align-items:center;gap:44px}
+.marq span::after{content:'✦';color:var(--sun)}
+.marq.b span::after{color:var(--leaf)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* counters */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:110px 0 40px}
+.stat b{display:block;font-family:var(--disp);font-size:clamp(2.8rem,7vw,5.2rem);line-height:1;background:linear-gradient(120deg,var(--sky),var(--leaf));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{color:var(--mut);font-weight:600}
+@media(max-width:700px){.stats{grid-template-columns:1fr;padding-top:80px}}
+
+/* reveals */
+.rv{opacity:0;transform:translateY(40px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv.wipe{transform:none;clip-path:inset(0 100% 0 0);transition:clip-path 1.1s cubic-bezier(.7,0,.2,1),opacity .2s}
+.rv.zoom{transform:scale(.88)}
+.rv.on{opacity:1;transform:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.1s!important}.d2{transition-delay:.2s!important}.d3{transition-delay:.3s!important}
+section.block{padding:100px 0;position:relative}
+@media(max-width:700px){section.block{padding:70px 0}}
+
+/* journey (scroll-drawn) */
+.journey{height:300vh;background:var(--night);color:#fff;position:relative}
+.journey .stick{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:30px;max-width:1180px;margin:0 auto;padding:90px 20px 30px}
+.journey h2{color:#fff}
+.journey .sub{color:rgba(255,255,255,.7)}
+.jsvg{width:100%;height:auto;max-height:76svh;overflow:visible}
+.jbase{fill:none;stroke:rgba(255,255,255,.12);stroke-width:4;stroke-linecap:round;stroke-dasharray:2 12}
+.jline{fill:none;stroke:url(#jg);stroke-width:8;stroke-linecap:round}
+.jdot circle{transition:r .4s,fill .4s}
+.jdot text{font-family:'Manrope',Arial,sans-serif;font-weight:800;font-size:22px;fill:rgba(255,255,255,.35);transition:fill .4s}
+.jdot.on text{fill:#fff}
+.jdot.on circle.c{fill:var(--sun)}
+.stages{margin-top:26px;position:relative;min-height:220px}
+.stage{position:absolute;inset:0;opacity:0;transform:translateY(30px);transition:opacity .5s,transform .5s}
+.stage.on{opacity:1;transform:none}
+.stage .n{font-family:var(--disp);font-size:4.5rem;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--leaf)}
+.stage h3{font-size:1.6rem;margin:10px 0}
+.stage p{color:rgba(255,255,255,.75)}
+.stage ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.stage li{border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 14px;font-size:.9rem}
+@media(max-width:900px){.journey .stick{grid-template-columns:1fr;grid-template-rows:auto 1fr;padding-top:96px;gap:6px}.jsvg{max-height:38svh}.stages{min-height:250px;margin-top:10px}.stage .n{font-size:3rem}.journey h2{font-size:1.6rem;margin-bottom:.2em}.journey .sub{display:none}}
+
+/* tilt cards */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;perspective:1000px}
+.tilt{position:relative;background:#fff;border-radius:26px;padding:32px;border:1px solid var(--line);transform-style:preserve-3d;transition:transform .2s ease-out,box-shadow .3s;overflow:hidden;--mx:50%;--my:50%}
+.tilt::before{content:'';position:absolute;inset:0;background:radial-gradient(400px circle at var(--mx) var(--my),rgba(123,196,36,.18),transparent 45%);opacity:0;transition:opacity .3s}
+.tilt:hover::before{opacity:1}
+.tilt:hover{box-shadow:0 30px 60px rgba(11,20,48,.12)}
+.tilt>*{position:relative;transform:translateZ(30px)}
+.tilt .ico{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;margin-bottom:22px}
+.tilt .ico svg{width:30px;height:30px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}
+.qa{border-bottom:1px solid var(--line)}
+.qa button{all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-weight:800;font-size:1.08rem}
+.qa button i{flex:none;width:36px;height:36px;border-radius:50%;background:var(--paper);border:1px solid var(--line);position:relative;transition:transform .4s,background .3s}
+.qa button i::before,.qa button i::after{content:'';position:absolute;left:50%;top:50%;width:14px;height:2px;margin:-1px 0 0 -7px;background:var(--ink);transition:transform .3s}
+.qa button i::after{transform:rotate(90deg)}
+.qa.open button i{transform:rotate(180deg);background:var(--leaf)}
+.qa.open button i::after{transform:rotate(0)}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.2,.8,.2,1)}
+.qa.open .ans{grid-template-rows:1fr}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{padding-bottom:22px;color:var(--ink2)}
+@media(max-width:860px){.faq-grid{grid-template-columns:1fr;gap:10px}}
+
+/* big cta */
+.bigcta{position:relative;overflow:hidden;border-radius:36px;background:var(--night);color:#fff;padding:70px 50px;text-align:center}
+.bigcta canvas{position:absolute;inset:0;width:100%;height:100%}
+.bigcta>*:not(canvas){position:relative}
+.bigcta h2{font-size:clamp(1.9rem,5vw,3.6rem);margin:0 auto .3em;max-width:16ch}
+.bigcta p{margin:0 auto 30px;color:rgba(255,255,255,.75)}
+.bigcta .cta-row{justify-content:center}
+@media(max-width:700px){.bigcta{padding:54px 22px;border-radius:28px}}
+
+/* page head */
+.phead{position:relative;background:var(--night);color:#fff;padding:150px 0 90px;overflow:hidden}
+.phead canvas{position:absolute;inset:0;width:100%;height:100%}
+.phead .wrap{position:relative}
+.phead h1{font-size:clamp(2.3rem,7vw,5.4rem);max-width:15ch}
+.phead .lead{color:rgba(255,255,255,.78);margin-top:20px}
+.crumbs{font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:22px}
+.crumbs a{color:var(--leaf);text-decoration:none}
+.phead .big-o{position:absolute;right:-120px;top:50%;width:460px;height:460px;transform:translateY(-50%);border-radius:50%;border:2px dashed rgba(255,255,255,.15);animation:spin 40s linear infinite}
+.phead .big-o::before{content:'';position:absolute;top:-10px;left:50%;width:20px;height:20px;border-radius:50%;background:var(--sun);box-shadow:0 0 30px var(--sun)}
+@media(max-width:700px){.phead{padding:130px 0 70px}.phead .big-o{width:300px;height:300px;right:-160px}}
+
+/* course filter */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;position:relative}
+.tabs button{font:inherit;font-weight:800;border:0;background:#fff;border:1px solid var(--line);padding:11px 20px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,transform .2s}
+.tabs button:active{transform:scale(.95)}
+.tabs button[aria-pressed=true]{background:var(--night);color:#fff;border-color:var(--night)}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;perspective:1000px}
+.course{display:flex;flex-direction:column;transition:transform .2s ease-out,opacity .4s,box-shadow .3s}
+.course.hide{display:none}
+.course.enter{animation:cEnter .55s cubic-bezier(.2,.9,.3,1.2) both}
+@keyframes cEnter{from{opacity:0;transform:translateY(30px) scale(.94)}}
+.course .tagrow{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.chip{font-size:.78rem;font-weight:800;padding:5px 12px;border-radius:999px}
+.chip.ib{background:#E2F1FB;color:#156C9F}.chip.im{background:#EAF4DC;color:var(--leaf-d)}.chip.ka{background:#FFF3CC;color:#8A6500}
+.course .num{font-family:var(--disp);font-size:2.4rem;color:var(--line);line-height:1}
+.course p{color:var(--ink2);font-size:.97rem;flex:1}
+.course .meta{display:flex;justify-content:space-between;align-items:center;margin-top:22px;padding-top:18px;border-top:1px dashed var(--line);gap:10px}
+.course .meta small{color:var(--mut);font-weight:700}
+.course .go{width:46px;height:46px;border-radius:50%;background:var(--night);color:#fff;display:grid;place-items:center;text-decoration:none;transition:transform .3s,background .3s;flex:none}
+.course .go:hover{transform:rotate(-45deg);background:var(--leaf);color:var(--night)}
+@media(max-width:960px){.cgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.cgrid{grid-template-columns:1fr}}
+
+/* teachers flip */
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.flip{perspective:1200px;height:400px;cursor:pointer;background:none;border:0;font:inherit;text-align:left;padding:0;color:inherit}
+.flip .in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.3,1.3,.4,1)}
+.flip.on .in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;border-radius:28px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden;padding:28px;display:flex;flex-direction:column;justify-content:flex-end}
+.front{background:var(--night);color:#fff}
+.front .blob{position:absolute;width:260px;height:260px;top:-30px;right:-50px;filter:blur(2px);animation:morph 9s ease-in-out infinite;border-radius:42% 58% 63% 37%/45% 41% 59% 55%}
+.flip:nth-child(1) .blob{background:linear-gradient(135deg,var(--leaf),var(--sky))}
+.flip:nth-child(2) .blob{background:linear-gradient(135deg,var(--sky),#7B6CF6)}
+.flip:nth-child(3) .blob{background:linear-gradient(135deg,var(--sun),var(--leaf))}
+@keyframes morph{50%{border-radius:63% 37% 38% 62%/58% 63% 37% 42%;transform:rotate(40deg) scale(1.08)}}
+.front .ini{position:absolute;top:34px;left:28px;font-family:var(--disp);font-size:7rem;line-height:1;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.85);z-index:1}
+.front h3{font-size:1.5rem;position:relative}
+.front small{opacity:.7;position:relative;display:flex;align-items:center;gap:8px}
+.back{background:#fff;border:1px solid var(--line);transform:rotateY(180deg);justify-content:center}
+.back h3{font-size:1.3rem}
+.back p{color:var(--ink2);margin-top:8px}
+.back .ph{margin-top:16px;font-size:.85rem;color:var(--mut);font-style:italic}
+@media(max-width:900px){.tgrid{grid-template-columns:1fr}.flip{height:340px}}
+
+/* about scroll-fill text */
+.fill-text{font-family:var(--disp);font-size:clamp(1.6rem,4.4vw,3.4rem);line-height:1.2;font-weight:600;letter-spacing:-.02em}
+.fill-text span{color:rgba(22,35,63,.14);transition:color .3s}
+.fill-text span.lit{color:var(--ink)}
+.fill-text span.lit.g{color:var(--leaf-d)}
+.vals{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media(max-width:860px){.vals{grid-template-columns:1fr}}
+.vals .tilt{min-height:260px}
+.vals svg .draw{stroke-dasharray:200;stroke-dashoffset:200;transition:stroke-dashoffset 1.4s .3s}
+.vals .on svg .draw{stroke-dashoffset:0}
+
+/* contact */
+.cgrid2{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+.form{background:#fff;border-radius:30px;padding:36px;border:1px solid var(--line);box-shadow:0 30px 70px rgba(11,20,48,.08)}
+.fld{position:relative;margin-bottom:18px}
+.fld input,.fld textarea,.fld select{width:100%;font:inherit;font-weight:600;padding:24px 16px 10px;border:1.5px solid var(--line);border-radius:16px;background:var(--paper);color:var(--ink);transition:border-color .2s,background .2s;appearance:none}
+.fld textarea{resize:vertical;min-height:110px}
+.fld label{position:absolute;left:17px;top:17px;color:var(--mut);font-weight:600;pointer-events:none;transition:all .2s}
+.fld input:focus,.fld textarea:focus,.fld select:focus{border-color:var(--sky);outline:none;background:#fff}
+.fld input:focus+label,.fld input:not(:placeholder-shown)+label,.fld textarea:focus+label,.fld textarea:not(:placeholder-shown)+label,.fld select+label{top:7px;font-size:.74rem;color:var(--sky)}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.pills input{position:absolute;opacity:0}
+.pills label{cursor:pointer;padding:10px 16px;border-radius:999px;border:1.5px solid var(--line);font-weight:700;font-size:.92rem;transition:all .2s}
+.pills input:checked+label{background:var(--night);color:#fff;border-color:var(--night);transform:scale(1.04)}
+.pills input:focus-visible+label{outline:3px solid var(--sun)}
+.form .btn{width:100%;justify-content:center;margin-top:6px}
+.plane{transition:transform .8s cubic-bezier(.6,-.3,.6,1)}
+.sent .plane{transform:translate(160px,-120px) rotate(-20deg)}
+.cinfo{display:grid;gap:14px}
+.cinfo a{display:flex;align-items:center;gap:16px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;transition:transform .3s,border-color .3s}
+.cinfo a:hover{transform:translateX(8px);border-color:var(--leaf)}
+.cinfo .ic{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;flex:none}
+.cinfo b{display:block;font-size:.82rem;color:var(--mut)}
+.cinfo strong{font-size:1.08rem}
+@media(max-width:860px){.cgrid2{grid-template-columns:1fr}.form{padding:24px}}
+
+/* footer */
+footer{background:var(--night);color:#B9C4DA;padding:90px 0 30px;margin-top:100px;position:relative;overflow:hidden}
+.f-huge{font-family:var(--disp);font-size:clamp(3rem,13vw,11rem);line-height:.9;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.18);white-space:nowrap;margin-bottom:50px;letter-spacing:-.03em}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+footer h3{color:#fff;font-size:.95rem;margin-bottom:14px}
+footer ul{list-style:none}footer li{padding:5px 0}
+footer a{text-decoration:none;transition:color .2s}footer a:hover{color:var(--leaf)}
+.f-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:50px;padding-top:22px;font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:760px){.f-grid{grid-template-columns:1fr}}
+
+/* floating wa */
+.fwa{position:fixed;right:18px;bottom:18px;width:62px;height:62px;border-radius:50%;background:#25D366;display:grid;place-items:center;z-index:60;box-shadow:0 10px 30px rgba(0,0,0,.25);transition:transform .3s}
+.fwa:hover{transform:scale(1.1) rotate(-8deg)}
+.fwa::before{content:'';position:absolute;inset:0;border-radius:50%;background:#25D366;animation:pulse 2.4s infinite;z-index:-1}
+.fwa svg{width:30px;height:30px}
+
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+ .hero h1 .w>span{transform:none}.hero .lead,.hero .cta-row{opacity:1}
+ .rv{opacity:1;transform:none;clip-path:none}
+ .journey{height:auto}.journey .stick{position:relative;height:auto}.stage{position:relative;opacity:1;transform:none;margin-bottom:24px}
+}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "Tagiyev Academy", "alternateName": "Tağıyev Akademiyası", "url": "https://tagiyevacademy.az/", "logo": "https://tagiyevacademy.az/logo.png", "description": "Online təhsil və peşəkar hazırlıq mərkəzi: ibtidai siniflər, imtahan hazırlığı, karyera kursları və xarici dillər.", "telephone": "+994516028895", "areaServed": {"@type": "Country", "name": "Azərbaycan"}, "sameAs": ["https://www.instagram.com/tagiyev_academy/", "https://www.threads.net/@tagiyev_academy"], "contactPoint": {"@type": "ContactPoint", "telephone": "+994516028895", "contactType": "Qeydiyyat", "availableLanguage": ["az", "ru", "en"]}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Course", "name": "Məktəbəqədər hazırlıq", "description": "Hərflər, rəqəmlər, diqqət və məntiq oyunları ilə uşağı 1-ci sinfə hazır edirik.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Course", "name": "I–IV sinif fənləri", "description": "Azərbaycan dili, riyaziyyat və həyat bilgisi üzrə məktəb proqramını möhkəmləndirən dərslər.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Course", "name": "Ev tapşırıqlarına dəstək", "description": "Müəllim nəzarətində tapşırıqların icrası — valideyn yükü azalır, uşaq müstəqilləşir.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 4, "item": {"@type": "Course", "name": "Buraxılış imtahanı", "description": "IX və XI siniflər üçün DİM formatında sistemli hazırlıq və mütəmadi sınaqlar.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 5, "item": {"@type": "Course", "name": "Qəbul imtahanı", "description": "İxtisas qrupları üzrə fənn hazırlığı, bal hesablanması və strategiya.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 6, "item": {"@type": "Course", "name": "Lisey və olimpiada", "description": "Liseylərə qəbul və fənn olimpiadaları üçün dərinləşdirilmiş proqram.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 7, "item": {"@type": "Course", "name": "İngilis dili", "description": "Danışıq, qrammatika və beynəlxalq imtahanlar üzrə səviyyəyə uyğun qruplar.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 8, "item": {"@type": "Course", "name": "Rus dili", "description": "Gündəlik ünsiyyətdən işgüzar dilə qədər praktik proqram.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}, {"@type": "ListItem", "position": 9, "item": {"@type": "Course", "name": "Karyera bacarıqları", "description": "CV, müsahibə və iş yerində lazım olan praktik bacarıqlar.", "provider": {"@type": "EducationalOrganization", "name": "Tagiyev Academy", "sameAs": "https://tagiyevacademy.az"}, "inLanguage": "az", "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana səhifə", "item": "https://tagiyevacademy.az/"}, {"@type": "ListItem", "position": 2, "name": "Kurslar", "item": "https://tagiyevacademy.az/kurslar.html"}]}</script>
+</head>
+<body>
+<div class="curtain" aria-hidden="true"><i></i><i></i><i><svg width="70" height="70" viewBox="0 0 40 40" aria-hidden="true"><path d="M33 9A16 16 0 1 0 34 30" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><path d="M11 17l9 7 11-10-8 15-8 6 3-9z" fill="#7BC424"/><path d="M15 27l4-3-6 11z" fill="#2BA3EC"/><path d="M20 6l6 3-6 3-6-3z" fill="#fff"/><path d="M33 8l1 2 2 .4-1.6 1.4.4 2.2-1.8-1-1.8 1 .4-2.2L30 10.4l2-.4z" fill="#FFC21A"/></svg></i></div>
+<div class="prog" aria-hidden="true"></div><div class="cur" aria-hidden="true"></div>
+<a class="sr" href="#main">Məzmuna keç</a>
+<header class="top"><div class="bar">
+ <a class="brand" href="index.html" aria-label="Tagiyev Academy — ana səhifə"><svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><path d="M33 9A16 16 0 1 0 34 30" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><path d="M11 17l9 7 11-10-8 15-8 6 3-9z" fill="#7BC424"/><path d="M15 27l4-3-6 11z" fill="#2BA3EC"/><path d="M20 6l6 3-6 3-6-3z" fill="#fff"/><path d="M33 8l1 2 2 .4-1.6 1.4.4 2.2-1.8-1-1.8 1 .4-2.2L30 10.4l2-.4z" fill="#FFC21A"/></svg><span><b>TAGIYEV</b><small>ACADEMY</small></span></a>
+ <nav id="nav" aria-label="Əsas menyu"><ul><li><a href="index.html">Ana səhifə</a></li><li><a href="kurslar.html" aria-current=page>Kurslar</a></li><li><a href="muellimler.html">Müəllimlər</a></li><li><a href="haqqimizda.html">Haqqımızda</a></li><li><a href="elaqe.html">Əlaqə</a></li></ul></nav>
+ <a class="btn btn-wa btn-sm" href="https://wa.me/994516028895" target="_blank" rel="noopener">Qeydiyyat</a>
+ <button class="burger" aria-label="Menyu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+</div></header>
+<main id="main">
+<section class="phead"><canvas class="stars" aria-hidden="true"></canvas><div class="big-o" aria-hidden="true"></div><div class="wrap">
+ <div class="crumbs"><a href="index.html">Ana səhifə</a> / Kurslar</div>
+ <h1 class="rv wipe">Online kurslar</h1><p class="lead rv d2">İbtidai siniflərdən imtahan hazırlığına, xarici dillərdən karyera bacarıqlarına — hamısı online, peşəkar müəllimlərlə.</p></div></section>
+<section class="block"><div class="wrap">
+ <div class="tabs" role="group" aria-label="Kursları süz">
+  <button data-f="all" aria-pressed="true">Hamısı</button><button data-f="ibtidai" aria-pressed="false">İbtidai</button><button data-f="imtahan" aria-pressed="false">İmtahan</button><button data-f="karyera" aria-pressed="false">Karyera və dillər</button>
+ </div>
+ <div class="cgrid"><article class="tilt course" data-cat="ibtidai" id="k1"><div class="tagrow"><span class="chip ib">İbtidai</span><span class="num">01</span></div><h3>Məktəbəqədər hazırlıq</h3><p>Hərflər, rəqəmlər, diqqət və məntiq oyunları ilə uşağı 1-ci sinfə hazır edirik.</p><div class="meta"><small>5–6 yaş</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Məktəbəqədər%20hazırlıq%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Məktəbəqədər hazırlıq — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="ibtidai" id="k2"><div class="tagrow"><span class="chip ib">İbtidai</span><span class="num">02</span></div><h3>I–IV sinif fənləri</h3><p>Azərbaycan dili, riyaziyyat və həyat bilgisi üzrə məktəb proqramını möhkəmləndirən dərslər.</p><div class="meta"><small>Qrup / fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20I–IV%20sinif%20fənləri%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="I–IV sinif fənləri — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="ibtidai" id="k3"><div class="tagrow"><span class="chip ib">İbtidai</span><span class="num">03</span></div><h3>Ev tapşırıqlarına dəstək</h3><p>Müəllim nəzarətində tapşırıqların icrası — valideyn yükü azalır, uşaq müstəqilləşir.</p><div class="meta"><small>Fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Ev%20tapşırıqlarına%20dəstək%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Ev tapşırıqlarına dəstək — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="imtahan" id="k4"><div class="tagrow"><span class="chip im">İmtahan</span><span class="num">04</span></div><h3>Buraxılış imtahanı</h3><p>IX və XI siniflər üçün DİM formatında sistemli hazırlıq və mütəmadi sınaqlar.</p><div class="meta"><small>Qrup</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Buraxılış%20imtahanı%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Buraxılış imtahanı — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="imtahan" id="k5"><div class="tagrow"><span class="chip im">İmtahan</span><span class="num">05</span></div><h3>Qəbul imtahanı</h3><p>İxtisas qrupları üzrə fənn hazırlığı, bal hesablanması və strategiya.</p><div class="meta"><small>Qrup / fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Qəbul%20imtahanı%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Qəbul imtahanı — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="imtahan" id="k6"><div class="tagrow"><span class="chip im">İmtahan</span><span class="num">06</span></div><h3>Lisey və olimpiada</h3><p>Liseylərə qəbul və fənn olimpiadaları üçün dərinləşdirilmiş proqram.</p><div class="meta"><small>Fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Lisey%20və%20olimpiada%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Lisey və olimpiada — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="karyera" id="k7"><div class="tagrow"><span class="chip ka">Karyera və dillər</span><span class="num">07</span></div><h3>İngilis dili</h3><p>Danışıq, qrammatika və beynəlxalq imtahanlar üzrə səviyyəyə uyğun qruplar.</p><div class="meta"><small>Qrup / fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20İngilis%20dili%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="İngilis dili — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="karyera" id="k8"><div class="tagrow"><span class="chip ka">Karyera və dillər</span><span class="num">08</span></div><h3>Rus dili</h3><p>Gündəlik ünsiyyətdən işgüzar dilə qədər praktik proqram.</p><div class="meta"><small>Qrup / fərdi</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Rus%20dili%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Rus dili — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article><article class="tilt course" data-cat="karyera" id="k9"><div class="tagrow"><span class="chip ka">Karyera və dillər</span><span class="num">09</span></div><h3>Karyera bacarıqları</h3><p>CV, müsahibə və iş yerində lazım olan praktik bacarıqlar.</p><div class="meta"><small>Qrup</small><a class="go" href="https://wa.me/994516028895?text=Salam!%20Karyera%20bacarıqları%20kursu%20haqqında%20məlumat%20istəyirəm." target="_blank" rel="noopener" aria-label="Karyera bacarıqları — məlumat al"><svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article></div>
+</div></section>
+<div class="marq " aria-hidden="true"><div class="tr"><span>İngilis dili</span><span>Riyaziyyat</span><span>Azərbaycan dili</span><span>Buraxılış</span><span>Qəbul imtahanı</span><span>Rus dili</span><span>Məktəbəqədər</span><span>Lisey hazırlığı</span><span>İngilis dili</span><span>Riyaziyyat</span><span>Azərbaycan dili</span><span>Buraxılış</span><span>Qəbul imtahanı</span><span>Rus dili</span><span>Məktəbəqədər</span><span>Lisey hazırlığı</span></div></div>
+<section class="block"><div class="wrap"><div class="bigcta rv zoom"><canvas class="stars" aria-hidden="true"></canvas>
+ <h2>Hansı kursu seçəcəyinizi bilmirsiniz?</h2><p>Qısa səviyyə müəyyənləşdirməsi edək, sizə ən uyğun proqramı təklif edək.</p><div class="cta-row"><a class="btn btn-wa" href="https://wa.me/994516028895" target="_blank" rel="noopener">Məsləhət al <svg class="ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></div></section>
+</main>
+<footer><div class="wrap">
+ <div class="f-huge" aria-hidden="true">Tagiyev Academy</div>
+ <div class="f-grid">
+  <div><a class="brand" href="index.html"><svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><path d="M33 9A16 16 0 1 0 34 30" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><path d="M11 17l9 7 11-10-8 15-8 6 3-9z" fill="#7BC424"/><path d="M15 27l4-3-6 11z" fill="#2BA3EC"/><path d="M20 6l6 3-6 3-6-3z" fill="#fff"/><path d="M33 8l1 2 2 .4-1.6 1.4.4 2.2-1.8-1-1.8 1 .4-2.2L30 10.4l2-.4z" fill="#FFC21A"/></svg><span><b>TAGIYEV</b><small>ACADEMY</small></span></a>
+   <p style="margin-top:18px;font-size:.95rem">Online Təhsil | Peşəkar Hazırlıq Mərkəzi. İllərin təcrübəsi və güvən — təhsildə peşəkar tərəfdaşınız.</p></div>
+  <div><h3>Səhifələr</h3><ul><li><a href="index.html">Ana səhifə</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="muellimler.html">Müəllimlər</a></li><li><a href="haqqimizda.html">Haqqımızda</a></li><li><a href="elaqe.html">Əlaqə</a></li></ul></div>
+  <div><h3>Əlaqə</h3><ul>
+   <li><a href="https://wa.me/994516028895" target="_blank" rel="noopener">WhatsApp: +994 51 602 88 95</a></li>
+   <li><a href="https://www.instagram.com/tagiyev_academy/" target="_blank" rel="noopener">Instagram: @tagiyev_academy</a></li>
+   <li><a href="https://www.threads.net/@tagiyev_academy" target="_blank" rel="noopener">Threads: @tagiyev_academy</a></li></ul></div>
+ </div>
+ <div class="f-bottom"><span>© <span id="yr">2026</span> Tagiyev Academy. Bütün hüquqlar qorunur.</span><span>İbtidai • İmtahan • Karyera</span></div>
+</div></footer>
+<a class="fwa" href="https://wa.me/994516028895" target="_blank" rel="noopener" aria-label="WhatsApp ilə yazın"><svg viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.6.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.6-.4z"/></svg></a>
+<script>
+(function(){
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* curtain */
+var cu=document.querySelector('.curtain');
+if(RM){cu.style.display='none'}else{requestAnimationFrame(function(){cu.classList.add('out')});}
+document.querySelectorAll('a[href$=".html"],a[href*=".html#"]').forEach(function(a){
+ a.addEventListener('click',function(e){if(RM||e.metaKey||e.ctrlKey)return;e.preventDefault();var h=a.href;
+ cu.classList.remove('out');void cu.offsetWidth;cu.classList.add('in');setTimeout(function(){location.href=h},620);});});
+window.addEventListener('pageshow',function(e){if(e.persisted){cu.classList.remove('in');cu.classList.add('out')}});
+/* header + progress */
+var top=document.querySelector('.top'),pr=document.querySelector('.prog');
+function onS(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;top.classList.toggle('solid',y>40);pr.style.transform='scaleX('+(h>0?y/h:0)+')';}
+addEventListener('scroll',onS,{passive:true});onS();
+/* menu */
+var b=document.querySelector('.burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+/* cursor */
+var c=document.querySelector('.cur');
+if(matchMedia('(pointer:fine)').matches&&!RM){var cx=0,cy=0,tx=0,ty=0;
+ addEventListener('mousemove',function(e){tx=e.clientX;ty=e.clientY});
+ (function lp(){cx+=(tx-cx)*.2;cy+=(ty-cy)*.2;c.style.transform='translate('+cx+'px,'+cy+'px) translate(-50%,-50%)';requestAnimationFrame(lp)})();
+ c.style.transition='width .2s,height .2s,background .2s';c.style.left='0';c.style.top='0';
+ document.querySelectorAll('a,button,.flip').forEach(function(el){el.addEventListener('mouseenter',function(){c.classList.add('big')});el.addEventListener('mouseleave',function(){c.classList.remove('big')})});
+}
+/* magnetic buttons */
+if(!RM&&matchMedia('(pointer:fine)').matches)document.querySelectorAll('.btn,.fwa').forEach(function(el){
+ el.addEventListener('mousemove',function(e){var r=el.getBoundingClientRect();el.style.transform='translate('+((e.clientX-r.left-r.width/2)*.25)+'px,'+((e.clientY-r.top-r.height/2)*.35)+'px)'});
+ el.addEventListener('mouseleave',function(){el.style.transform=''});});
+/* split hero words */
+document.querySelectorAll('[data-split]').forEach(function(h){var i=0;h.querySelectorAll('.w').forEach(function(w){var s=document.createElement('span');s.innerHTML=w.innerHTML;w.innerHTML='';w.appendChild(s);s.style.animationDelay=(0.15+i++*0.09)+'s';});});
+/* rotating word */
+var rot=document.querySelector('.rot');
+if(rot){var words=JSON.parse(rot.dataset.words),k=0;
+ function setW(w){rot.innerHTML='';w.split('').forEach(function(ch,i){var s=document.createElement('span');s.className='ch';s.textContent=ch===' '?' ':ch;s.style.animationDelay=(i*0.035)+'s';rot.appendChild(s)})}
+ setW(words[0]);
+ if(!RM)setInterval(function(){var chs=rot.querySelectorAll('.ch');chs.forEach(function(s,i){s.style.animationDelay=(i*0.02)+'s';s.classList.add('out')});setTimeout(function(){k=(k+1)%words.length;setW(words[k])},380)},2800);}
+/* starfield / constellation */
+document.querySelectorAll('canvas.stars').forEach(function(cv){
+ var ctx=cv.getContext('2d'),W,H,P=[],m={x:-999,y:-999},dpr=Math.min(devicePixelRatio||1,2),host=cv.parentElement;
+ function rs(){W=host.clientWidth;H=host.clientHeight;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);
+  var cnt=Math.round(Math.min(110,W*H/11000));P=[];for(var i=0;i<cnt;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,r:Math.random()*1.8+.4,t:Math.random()*6,c:Math.random()<.12?'#FFC21A':(Math.random()<.5?'#7BC424':'#ffffff')})}
+ rs();addEventListener('resize',rs);
+ host.addEventListener('pointermove',function(e){var r=cv.getBoundingClientRect();m.x=e.clientX-r.left;m.y=e.clientY-r.top});
+ host.addEventListener('pointerleave',function(){m.x=m.y=-999});
+ var vis=true;new IntersectionObserver(function(es){vis=es[0].isIntersecting}).observe(host);
+ function fr(){requestAnimationFrame(fr);if(!vis)return;ctx.clearRect(0,0,W,H);
+  for(var i=0;i<P.length;i++){var p=P[i];p.t+=.03;
+   var dx=m.x-p.x,dy=m.y-p.y,d=Math.sqrt(dx*dx+dy*dy);if(d<160){p.vx+=dx/d*.02;p.vy+=dy/d*.02}
+   p.vx*=.985;p.vy*=.985;if(Math.abs(p.vx)<.05)p.vx+=(Math.random()-.5)*.05;if(Math.abs(p.vy)<.05)p.vy+=(Math.random()-.5)*.05;
+   p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=W;if(p.x>W)p.x=0;if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+   ctx.globalAlpha=.55+Math.sin(p.t)*.45;ctx.fillStyle=p.c;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.3);ctx.fill();
+   for(var j=i+1;j<P.length;j++){var q=P[j],ex=p.x-q.x,ey=p.y-q.y,e2=ex*ex+ey*ey;if(e2<9000){ctx.globalAlpha=(1-e2/9000)*.22;ctx.strokeStyle='#9FD3FF';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.stroke()}}
+   if(d<160){ctx.globalAlpha=(1-d/160)*.5;ctx.strokeStyle='#7BC424';ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(m.x,m.y);ctx.stroke()}}
+  ctx.globalAlpha=1}
+ if(RM){fr=function(){};}
+ requestAnimationFrame(fr);
+});
+/* orbit parallax */
+var sys=document.querySelector('.orbit .sys');
+if(sys&&!RM){var hero=document.querySelector('.hero');hero.addEventListener('pointermove',function(e){var x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;sys.style.transform='rotateX('+(y*-28+18)+'deg) rotateY('+(x*28)+'deg)'});sys.style.transform='rotateX(18deg)';
+ addEventListener('deviceorientation',function(e){if(e.gamma==null)return;sys.style.transform='rotateX('+(Math.max(-20,Math.min(40,e.beta-30))*.6+10)+'deg) rotateY('+(e.gamma*.6)+'deg)'});}
+/* reveals */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){(e.target._rv||[]).forEach(function(x){x.classList.add('on')});io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){var t=el.classList.contains('wipe')?el.parentElement:el;t._rv=(t._rv||[]).concat([el]);io.observe(t)});
+/* counters */
+var co=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;co.unobserve(e.target);var el=e.target,to=parseFloat(el.dataset.to),dec=+(el.dataset.dec||0),suf=el.dataset.suf||'',t0=null;
+ function st(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1800),v=to*(1-Math.pow(1-p,4));el.textContent=v.toFixed(dec)+suf;if(p<1)requestAnimationFrame(st)}RM?el.textContent=to.toFixed(dec)+suf:requestAnimationFrame(st)})},{threshold:.5});
+document.querySelectorAll('[data-to]').forEach(function(el){co.observe(el)});
+/* tilt */
+if(matchMedia('(pointer:fine)').matches&&!RM)document.querySelectorAll('.tilt').forEach(function(el){
+ el.addEventListener('mousemove',function(e){var r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+  el.style.transform='rotateX('+((.5-y)*10)+'deg) rotateY('+((x-.5)*12)+'deg)';el.style.setProperty('--mx',x*100+'%');el.style.setProperty('--my',y*100+'%')});
+ el.addEventListener('mouseleave',function(){el.style.transform=''});});
+/* journey scroll */
+var jr=document.querySelector('.journey');
+if(jr){var line=jr.querySelector('.jline'),L=line.getTotalLength(),star=jr.querySelector('.jstar'),dots=jr.querySelectorAll('.jdot'),stg=jr.querySelectorAll('.stage'),th=[0,.42,.82];
+ line.style.strokeDasharray=L;
+ function jf(){var r=jr.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/(r.height-innerHeight)));if(RM)p=1;
+  line.style.strokeDashoffset=L*(1-p);var pt=line.getPointAtLength(L*p);star.setAttribute('transform','translate('+pt.x+','+pt.y+') rotate('+(p*720)+')');
+  var a=0;th.forEach(function(t,i){var on=p>=t-.001;dots[i].classList.toggle('on',on);if(on)a=i});
+  stg.forEach(function(s,i){s.classList.toggle('on',i===a)})}
+ addEventListener('scroll',jf,{passive:true});addEventListener('resize',jf);jf();}
+/* faq */
+document.querySelectorAll('.qa button').forEach(function(bt){bt.addEventListener('click',function(){var q=bt.parentElement,o=q.classList.toggle('open');bt.setAttribute('aria-expanded',o)})});
+/* course filter */
+var tabs=document.querySelectorAll('.tabs button');
+if(tabs.length){function fl(cat){tabs.forEach(function(t){t.setAttribute('aria-pressed',t.dataset.f===cat)});
+  document.querySelectorAll('.course').forEach(function(c,i){var show=cat==='all'||c.dataset.cat===cat;c.classList.toggle('hide',!show);c.classList.remove('enter');if(show){void c.offsetWidth;c.style.animationDelay=(i%9*0.06)+'s';c.classList.add('enter')}})}
+ tabs.forEach(function(t){t.addEventListener('click',function(){fl(t.dataset.f)})});
+ var hsh=location.hash.replace('#','');if(['ibtidai','imtahan','karyera'].indexOf(hsh)>-1)fl(hsh);}
+/* flip */
+document.querySelectorAll('.flip').forEach(function(f){f.addEventListener('click',function(){var o=f.classList.toggle('on');f.setAttribute('aria-pressed',o)})});
+/* fill text */
+var ft=document.querySelector('.fill-text');
+if(ft){var sp=ft.querySelectorAll('span');function ff(){var r=ft.getBoundingClientRect(),p=Math.max(0,Math.min(1,(innerHeight*.85-r.top)/(r.height+innerHeight*.35)));if(RM)p=1;var k=Math.round(p*sp.length);sp.forEach(function(s,i){s.classList.toggle('lit',i<k)})}addEventListener('scroll',ff,{passive:true});ff();}
+/* lead form */
+var f=document.getElementById('lead');
+if(f)f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);
+ var t='Salam! Qeydiyyat istəyirəm.\nAd: '+(d.get('ad')||'')+'\nTelefon: '+(d.get('tel')||'')+'\nİstiqamət: '+(d.get('kurs')||'')+'\nFormat: '+(d.get('format')||'')+(d.get('qeyd')?'\nQeyd: '+d.get('qeyd'):'');
+ f.classList.add('sent');var w=window.open('about:blank','_blank');setTimeout(function(){var u='https://wa.me/994516028895?text='+encodeURIComponent(t);if(w)w.location=u;else location.href=u;f.classList.remove('sent')},700);});
+document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body></html>
